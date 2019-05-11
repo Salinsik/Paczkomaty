@@ -33,3 +33,6 @@ public class Paczka {
         this.waga = waga;
     }
 }
+
+
+// https://drive.google.com/drive/folders/1XdUCdn7nHVGAE2jGHecG5C8q511qTAUT?usp=sharing
