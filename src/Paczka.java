@@ -18,7 +18,7 @@ public class Paczka {
     }
 
     public void setKod(String kod) {
-        if (kod != null && kod.matches("^   [A-Z]{3}[A-Z0-9]{5}$")) {
+        if (kod != null && kod.matches("^[A-Z]{3}[0-9]{5}$")) {
             this.kod = kod;
         } else {
             throw new IllegalArgumentException("Nieprawidłowe kod.");

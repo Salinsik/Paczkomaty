@@ -7,7 +7,7 @@ public class Paczkomat {
         Paczka paczka2 = new Paczka("LLC10255",2);
 
         paczkomat.dodajPaczke(paczka2);
-        paczkomat.dodajPaczke(new Paczka("LBC10255",15));
+        paczkomat.dodajPaczke(new Paczka("LBC10555",15));
         paczkomat.wyswietlZawartosc(paczkomat);
     }
 
